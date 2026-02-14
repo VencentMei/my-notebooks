@@ -14,6 +14,7 @@ import { generateSidebar } from 'vitepress-sidebar'
 export default defineConfig({
   title: '我的博客',
   description: '记录学习与生活',
+  base: '/my-notebooks/',
 
   themeConfig: {
     nav: [
